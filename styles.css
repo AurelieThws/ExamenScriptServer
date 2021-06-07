@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dosis:wght@300&display=swap');
+
+
+body{
+	background-color: #C4D4E0;
+}
+
+main{
+	background-color: #E2B494;
+	padding: 1rem;
+	max-width: 33rem;
+	margin: auto;
+	margin-top: 5rem;
+	font-family: 'Dosis', sans-serif;
+}
+
+main#table{
+	max-width: 85%;
+}
+
+h1{
+	font-family: 'Antic Slab', serif;
+	color: #193446;
+	text-align: center;
+	font-size: 2rem;
+}
+
+h1#home{
+	font-size: 4rem;
+}
+
+#introduction{
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+a, #bouton{
+	text-decoration: none;
+	color: #193446;
+	border:0.2rem dashed #9AABB9;
+	width: 15rem;
+	padding: 0.3rem;
+	margin: auto;
+	text-align: center;
+	font-size: 1.2rem;
+	display: block;
+}
+
+a:hover, #bouton:hover{
+	background-color: #193446;
+	color: #E2B494;
+}
+
+/*Insciption*/
+label{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    padding: 0 0.5em 0 0;
+    
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+input:hover, input:focus, select:hover{
+    outline:2px solid #C4D4E0;
+}
+
+/*Tableau*/
+
+table{
+	text-align: center;
+	margin: auto;
+	border-collapse: collapse;
+	border:none;
+}
+
+th, td{
+	padding: 0.3rem;
+	border: none;
+}
+
+th{
+	background-color: #E9C77B;
+}
+
+td{
+	border-bottom: 1px solid #E9C77B;
+}
+
+#changedelete{
+	text-decoration: none;
+	width: 10rem;
+	font-size: 0.8rem;
+	border: none;
+	display: inline;
+	padding: 0.6rem;
+}
