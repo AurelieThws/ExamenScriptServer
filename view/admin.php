@@ -1,3 +1,4 @@
+<!--raph@test Surpr!ses3-->
 <!DOCTYPE html>
 <?php 
 session_start();
@@ -15,7 +16,7 @@ $tabActis = RecupActi();
 
 	<body>   
 		<main id="table">
-			<h1>Bienvenu les admins chéris</h1>
+			<h1>Bienvenue les admins chéris</h1>
 			<table border=1>
 				<thead>
 					<tr>

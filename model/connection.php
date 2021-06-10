@@ -1,6 +1,6 @@
 <?php
 
-// Les 4 variables si dessous peuvent changer!!!!!
+// Les 4 variables ci-dessous peuvent changer!!!!!
 $username = "root";   //Le login pour me connecter à la DB
 $password = "root";     // Le mdp pour me connecter à la DB
 $host = "localhost"; // Le nom du serveur ou se trouve ma DB

@@ -38,7 +38,7 @@ foreach ($tabActis as $acti) {
 				<label for="codepostal">Votre code postal: </label>
 				<select name="codepostal" required>
 					<?php foreach ($tabVilles as $tabVille) { ?>
-					<option value="<?php echo $tabVille["CpID"]; ?>"><?php echo $tabVille["CpCode"]." ".$tabVille["CpVille"]; ?></option>
+					<option value="<?php echo $tabVille["CpCode"]; ?>"><?php echo $tabVille["CpCode"]." ".$tabVille["CpVille"]; ?></option>
 					<?php } ?>
 				</select><br>
 
